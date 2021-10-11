@@ -60,23 +60,24 @@ public class PlayerController : Character
         if (onEndScreen) return;
         if (canMove)
         {
-            if (playerCohort == "Hold_to_move")
-            {
-                if (!screenIsTouched)
-                {
-                    if (!isStopping)
-                    {
-                        isStopping = true;
-                        isStartingToStop = true;
-                    }
-                }
-                else
-                {
-                    isStartingToStop = false;
-                    isStopping = false;
-                }
-            }
-            else if (!screenIsTouched)
+            // if (playerCohort == "Hold_to_move")
+            // {
+            //     if (!screenIsTouched)
+            //     {
+            //         if (!isStopping)
+            //         {
+            //             isStopping = true;
+            //             isStartingToStop = true;
+            //         }
+            //     }
+            //     else
+            //     {
+            //         isStartingToStop = false;
+            //         isStopping = false;
+            //     }
+            // }
+            // else
+            if (!screenIsTouched)
             {
                 isStopping = false;
                 isStartingToStop = false;
@@ -90,19 +91,19 @@ public class PlayerController : Character
             if (!isJumping && !isFlying)
             {
                 float num;
-                if (playerCohort == "Hold_to_move")
-                {
-                    if (!screenIsTouched)
-                    {
-                        num = timeSinceStartedMoving + Time.deltaTime * -5f;
-                    }
-                    else
-                    {
-                        num = timeSinceStartedMoving + Time.deltaTime * (timeSinceStartedMoving < 0.5f ? 2.5f : 1.2f);
-                    }
-                }
-
-                else if (screenIsTouched)
+                // if (playerCohort == "Hold_to_move")
+                // {
+                //     if (!screenIsTouched)
+                //     {
+                //         num = timeSinceStartedMoving + Time.deltaTime * -5f;
+                //     }
+                //     else
+                //     {
+                //         num = timeSinceStartedMoving + Time.deltaTime * (timeSinceStartedMoving < 0.5f ? 2.5f : 1.2f);
+                //     }
+                // }
+                // else
+                if (screenIsTouched)
                 {
                     num = timeSinceStartedMoving + Time.deltaTime * -5f;
                 }
@@ -134,14 +135,20 @@ public class PlayerController : Character
         }
 
         wasGrounded = isGrounded;
-        if (playerCohort == "Hold_to_move")
-        {
-            if (isMoving && (!screenIsTouched || isJumping))
-                isMoving = false;
-            else if (!isMoving && !isJumping &&
-                     (screenIsTouched || Vector3.Distance(lastPosition, transform.position) > 0.01f)) isMoving = true;
-        }
-        else if (isMoving && (screenIsTouched || isJumping))
+        // if (playerCohort == "Hold_to_move")
+        // {
+        //     if (isMoving && (!screenIsTouched || isJumping))
+        //     {
+        //         isMoving = false;
+        //     }
+        //     else if (!isMoving && !isJumping &&
+        //              (screenIsTouched || Vector3.Distance(lastPosition, transform.position) > 0.01f))
+        //     {
+        //         isMoving = true;
+        //     }
+        // }
+        // else 
+        if (isMoving && (screenIsTouched || isJumping))
         {
             isMoving = false;
         }
@@ -240,7 +247,7 @@ public class PlayerController : Character
 
     private void OnScreenTouched(ScreenTouchedEvent e)
     {
-        if (!gameIsOver) screenIsTouched = e.isTouched;
+        if (!gameIsOver) screenIsTouched = !e.isTouched;
     }
 
     protected override void ActivateCharacter()
