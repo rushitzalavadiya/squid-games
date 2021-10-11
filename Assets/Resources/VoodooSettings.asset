@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b052b687604a25bfa1ed333ae186e35, type: 3}
+  m_Name: "VoodooSettings"
+  m_EditorClassIdentifier: 
+  MixpanelProdToken: "82d0378e7a301a3b0f74cc73625bce23"
+  MixpanelUsersPercentPerCohort: 0.05
+  GameAnalyticsIosGameKey: "2ba480f351cd18914e76d17391feabd2"
+  GameAnalyticsIosSecretKey: "5b9985ae33ca32c681b3c167c8dded838c7e98a8"
+  GameAnalyticsAndroidGameKey: "77b2172170eeb37f6efa08d0b3a54202"
+  GameAnalyticsAndroidSecretKey: "bc09bccfefb362ed8859e79c3832464ab0dbb269"
+  FacebookAppId: "146810152723342"
+  FabricOrganizationName: "Voodoo - Honikou"
+  FabricOrganizationId: "5ba111ae2edc7fd55e000681"
+  FabricOrganizationApiKey: "c8f3823ee751bab9abc76aab032d1cd3529ce28b"
+  FabricOrganizationBuildSecret: "9985afa4397be4fb224b5988eceadad2a2647b509eedb4e8226bcac8249150dc"
+  SafeDkIosAppId: "c7ea3deda2dd50b24225138cf1bc21e6"
+  SafeDkIosApiKey: "7986565e86404e70c01fee7472ad5db7"
+  SafeDkAndroidAppId: "0eab269d91d9cc5e3f94406b3284e922"
+  SafeDkAndroidApiKey: "8cf1e94596eb18433fdbf64f8465a46b"
+  IosAdUnits:
+    BannerAdUnit: "c1fd1e01801a462784a96d627ba7fea6"
+    InterstitialAdUnit: "849d653186c04f02b7a7e8687ef97ae9"
+    RewardedVideoAdUnit: "32d649b362174593a2e740a1459dc64d"
+    InterstitialAtLaunchAdUnit: 
+  AndroidAdUnits:
+    BannerAdUnit: "520c90022804446f89e13e354ae283dd"
+    InterstitialAdUnit: "e17917091c34489390c732fe35dfc89e"
+    RewardedVideoAdUnit: "0fa617087730498ca7ad378e7ff59f56"
+    InterstitialAtLaunchAdUnit: 
+  TapjoyIosSdkKey: 
+  TapjoyAndroidSdkKey: 
+  OguryAndroidAppKey: 
+  AdMobAndroidAppId: "ca-app-pub-6354112556091525~7070240076"
+  AdMobIosAppId: "ca-app-pub-6354112556091525~6081695681"
+  RunningABTests:
+  - "Hold_to_move"
+  - "Max3_first_win"
+  - "Large_cone"
+  - "Instant_sprint"
+  - "Faster_instant_sprint"
+  - "No_red"
+  DebugForcedCohort:
+    index: 0
+  NoAdsBundleId: "com.hnk.touchthewall.noads"
+  Products: []
+  CrossPromo:
+    UrlScheme: "iovoodoo161"
+  EnableCrossPromo: 1
+  AppleStoreId: "1464879969"
+  AppRaterDelayAfterLaunchInSeconds: 60
+  AppRaterPostponeCooldownInSeconds: 86400
+  AppRaterMinimumNumberOfGamesPlayed: 5
+  StudioLogoForSplashScreen: {fileID: 2800000, guid: ee2321f05f2349f0baf9b6bae43d01f5, type: 3}
+  GdprPrimaryColor: {r: 0.254, g: 0.509, b: 0.894, a: 1}
+  VoodooLogLevelInEditor: 2
+  IgnoreTheGoogleKeyError: 0

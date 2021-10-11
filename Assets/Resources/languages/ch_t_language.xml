@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="0">Jouer</string>
+    <string name="1">Politique de confidentialité</string>
+    <string name="2">Joueur</string>
+    <string name="3">Niveau</string>
+    <string name="4">Appuie pour courir !</string>
+    <string name="5">Appuie pour arrêter de courir !</string>
+    <string name="6">Recommencer</string>
+    <string name="7">Réessayer</string>
+    <string name="8">Suivant</string>
+    <string name="9">Victoire</string>
+    <string name="10">GAGNE!</string>
+    <string name="11">TERMINE!</string>
+    <string name="12">Il faut au moins terminer #</string>
+    <string name="13">Feu vert !</string>
+    <string name="14">Feu rouge !</string>
+    <string name="15">Tu bouges !</string>
+    <string name="16">Restauration des achats</string>
+    <string name="17">Vos achats ont été restaurés !</string>
+    <string name="18">Les pubs ont été retirées !</string>
+    <string name="19">Les achats n'ont pas pu être restaurés.</string>
+    <string name="20">Un problème est arrivé lors de l'achat du produit</string>
+    <string name="21">Passer niveau ?</string>
+</resources>

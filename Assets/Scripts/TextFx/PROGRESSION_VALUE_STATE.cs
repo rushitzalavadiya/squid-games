@@ -1,0 +1,9 @@
+namespace TextFx
+{
+	public enum PROGRESSION_VALUE_STATE
+	{
+		UNIQUE,
+		REFERENCE,
+		OFFSET_FROM_REFERENCE
+	}
+}

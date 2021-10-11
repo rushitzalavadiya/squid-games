@@ -1,0 +1,6 @@
+{
+	"firstPlatformId":"49",
+	"secondPlatformId":"50",
+	"thirdPlatformId":"51",
+	"fourthPlatformId":"52"
+}

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f9fb3bf8c5864b6caa1ffc3eecea9e3f
+timeCreated: 1633951977
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "ConcertOne-Regular"
+  fontNames:
+  - Concert One
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 
