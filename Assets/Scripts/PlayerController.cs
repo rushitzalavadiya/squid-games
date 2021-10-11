@@ -89,20 +89,32 @@ public class PlayerController : Character
 
             if (!isJumping && !isFlying)
             {
-                var num = 0f;
-                num = playerCohort == "Hold_to_move"
-                    ? !screenIsTouched
-                        ?
-                        timeSinceStartedMoving + Time.deltaTime * -5f
-                        : timeSinceStartedMoving + Time.deltaTime * (timeSinceStartedMoving < 0.5f ? 2.5f : 1.2f)
-                    :
-                    screenIsTouched
-                        ? timeSinceStartedMoving + Time.deltaTime * -5f
-                        :
-                        playerCohort != "Instant_sprint" && playerCohort != "Faster_instant_sprint"
-                            ?
-                            timeSinceStartedMoving + Time.deltaTime * (timeSinceStartedMoving < 0.5f ? 2.5f : 1.2f)
-                            : timeToReachMaxSpeed;
+                float num;
+                if (playerCohort == "Hold_to_move")
+                {
+                    if (!screenIsTouched)
+                    {
+                        num = timeSinceStartedMoving + Time.deltaTime * -5f;
+                    }
+                    else
+                    {
+                        num = timeSinceStartedMoving + Time.deltaTime * (timeSinceStartedMoving < 0.5f ? 2.5f : 1.2f);
+                    }
+                }
+
+                else if (screenIsTouched)
+                {
+                    num = timeSinceStartedMoving + Time.deltaTime * -5f;
+                }
+                else if (playerCohort != "Instant_sprint" && playerCohort != "Faster_instant_sprint")
+                {
+                    num = timeSinceStartedMoving + Time.deltaTime * (timeSinceStartedMoving < 0.5f ? 2.5f : 1.2f);
+                }
+                else
+                {
+                    num = timeToReachMaxSpeed;
+                }
+
                 timeSinceStartedMoving = Mathf.Clamp(num, 0f, timeToReachMaxSpeed);
                 MovementUpdate();
             }
