@@ -75,7 +75,7 @@ public class AIController : Character
 			if (!isJumping && !isFlying)
 			{
 				float num = 0f;
-				num = ((currentState != 0) ? (timeSinceStartedMoving + Time.deltaTime * -5f) : ((!(playerCohort == "Instant_sprint") && !(playerCohort == "Faster_instant_sprint")) ? (timeSinceStartedMoving + Time.deltaTime * ((timeSinceStartedMoving < 0.5f) ? 2.5f : 1.2f)) : timeToReachMaxSpeed));
+				num = ((currentState != 0) ? (timeSinceStartedMoving + Time.deltaTime * -5f) : ((playerCohort != "Instant_sprint" && playerCohort != "Faster_instant_sprint") ? (timeSinceStartedMoving + Time.deltaTime * ((timeSinceStartedMoving < 0.5f) ? 2.5f : 1.2f)) : timeToReachMaxSpeed));
 				timeSinceStartedMoving = Mathf.Clamp(num, 0f, timeToReachMaxSpeed);
 				MovementUpdate();
 			}
@@ -91,6 +91,7 @@ public class AIController : Character
 			}
 		}
 		wasGrounded = isGrounded;
+		
 		if (isMoving && (Vector3.Distance(lastPosition, base.transform.position) <= 0.01f || isJumping))
 		{
 			isMoving = false;

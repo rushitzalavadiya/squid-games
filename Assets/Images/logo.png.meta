@@ -1,11 +1,12 @@
 fileFormatVersion: 2
 guid: 7d1f6d6ce0e44877bf92e0884e98291e
-timeCreated: 1633951971
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: logo
-  serializedVersion: 5
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: logo
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +24,9 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -45,18 +49,25 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 9
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -66,7 +77,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -77,6 +89,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -177,7 +190,7 @@ TextureImporter:
     - - {x: 158, y: 89.00001}
       - {x: 145, y: 8.000008}
       - {x: 150, y: 112}
-    physicsShape:    
+    physicsShape:
     - - {x: -93.00001, y: -99.99999}
       - {x: -43.00002, y: -91.99999}
       - {x: -41.00001, y: -89.99998}
@@ -197,7 +210,7 @@ TextureImporter:
       - {x: -131, y: -5.999992}
       - {x: -133, y: -29.99999}
       - {x: -139, y: -40.99999}
-      - {x: -136, y: 7.629395E-06}
+      - {x: -136, y: 0.000007629395}
       - {x: -137, y: 1.000007}
       - {x: -160, y: 1.000007}
       - {x: -190, y: -1.999992}
@@ -264,7 +277,7 @@ TextureImporter:
       - {x: 230, y: -64.99999}
       - {x: 206, y: -66.99999}
       - {x: 208, y: -11.99999}
-      - {x: 208, y: 7.629395E-06}
+      - {x: 208, y: 0.000007629395}
       - {x: 206, y: 2.000008}
       - {x: 198, y: 2.000008}
       - {x: 179, y: -1.999992}
@@ -381,12 +394,16 @@ TextureImporter:
       - {x: -78.00002, y: 59.00001}
       - {x: -79.00002, y: 41.00001}
     bones: []
-    spriteID:
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
