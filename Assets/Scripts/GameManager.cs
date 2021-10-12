@@ -111,8 +111,8 @@ public class GameManager : MonoBehaviour
 	[SerializeField]
 	private GameObject endGamePanel;
 
-	[SerializeField]
-	private TextFxUGUI victoryTextFX;
+	//[SerializeField]
+	//private TextFxUGUI victoryTextFX;
 
 	[SerializeField]
 	private Text loseExplanationText;
@@ -433,9 +433,9 @@ public class GameManager : MonoBehaviour
 		if (playerWon)
 		{
 			UpdateLevel();
-			victoryTextFX.gameObject.SetActive(value: true);
-			victoryTextFX.text = LanguageScript.get_string(9);
-			victoryTextFX.AnimationManager.PlayAnimation();
+			//victoryTextFX.gameObject.SetActive(value: true);
+			//victoryTextFX.text = LanguageScript.get_string(9);
+			//victoryTextFX.AnimationManager.PlayAnimation();
 			skipButton.SetActive(value: false);
 		}
 		else
