@@ -77,15 +77,15 @@ public class PlayerController : Character
             //     }
             // }
             // else
-            if (!screenIsTouched)
+            if (screenIsTouched)
             {
-                isStopping = false;
-                isStartingToStop = false;
-            }
-            else if (!isStopping)
-            {
-                isStartingToStop = true;
                 isStopping = true;
+                isStartingToStop = true;
+            }
+            else if (isStopping)
+            {
+                isStartingToStop = false;
+                isStopping = false;
             }
 
             if (!isJumping && !isFlying)

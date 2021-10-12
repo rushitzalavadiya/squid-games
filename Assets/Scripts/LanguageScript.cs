@@ -68,7 +68,7 @@ public class LanguageScript : MonoBehaviour
 		interface_en.Add("Restart");
 		interface_en.Add("Retry");
 		interface_en.Add("Next");
-		interface_en.Add("Victory");
+	    interface_en.Add("Victory");
 		interface_en.Add("WIN!");
 		interface_en.Add("OVER!");
 		interface_en.Add("You need to be at least #");
