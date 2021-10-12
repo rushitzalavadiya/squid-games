@@ -94,7 +94,7 @@ public class CountingCharacter : MonoBehaviour
 
 	public GameObject greenlight;
 
-	public GameObject sound;
+	//public GameObject sound;
 
 	public void InitCountingCharacter(Transform wallTransform, Transform frontBlockTransform, GameObject bubble, Animator bubbleAnimator, Image bubbleImage, Text bubbleText)
 	{
@@ -188,7 +188,7 @@ public class CountingCharacter : MonoBehaviour
 		bubbleText.fontSize = 3;
 		while (currentCountingState != CountingState.Sun && canMove)
 		{
-			sound.GetComponent<AudioSource>().enabled = true;
+		
 			bubbleText.text = ((int)(3 - currentCountingState)).ToString();
 			switch (currentCountingSpeed)
 			{
@@ -210,7 +210,7 @@ public class CountingCharacter : MonoBehaviour
 		}
 		if (canMove && currentCountingState == CountingState.Sun)
 		{
-			sound.GetComponent<AudioSource>().enabled = false;
+			
 			StartCoroutine(RotateTowardsFrontBlock());
 		}
 	}

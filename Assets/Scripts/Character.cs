@@ -83,7 +83,7 @@ public class Character : MonoBehaviour
 
 	protected bool firstInit;
 
-	protected bool isMoving;
+	public bool isMoving = false;
 
 	protected bool isStartingToStop;
 
