@@ -90,6 +90,12 @@ public class CountingCharacter : MonoBehaviour
 
 	protected EventManager eventManager;
 
+	public GameObject redlight;
+
+	public GameObject greenlight;
+
+	public GameObject sound;
+
 	public void InitCountingCharacter(Transform wallTransform, Transform frontBlockTransform, GameObject bubble, Animator bubbleAnimator, Image bubbleImage, Text bubbleText)
 	{
 		this.wallTransform = wallTransform;
@@ -151,6 +157,8 @@ public class CountingCharacter : MonoBehaviour
 			bubbleImage.color = greenLightColor;
 			bubbleAnimator.Play("Scream", 0, 0f);
 			bubbleText.text = LanguageScript.get_string(13);
+			greenlight.GetComponent<AudioSource>().enabled = true;
+			redlight.GetComponent<AudioSource>().enabled = false;
 			currentCountingState = CountingState.One;
 			SelectNewSpeed();
 			StartCoroutine(CountDown());
@@ -180,6 +188,7 @@ public class CountingCharacter : MonoBehaviour
 		bubbleText.fontSize = 3;
 		while (currentCountingState != CountingState.Sun && canMove)
 		{
+			sound.GetComponent<AudioSource>().enabled = true;
 			bubbleText.text = ((int)(3 - currentCountingState)).ToString();
 			switch (currentCountingSpeed)
 			{
@@ -201,6 +210,7 @@ public class CountingCharacter : MonoBehaviour
 		}
 		if (canMove && currentCountingState == CountingState.Sun)
 		{
+			sound.GetComponent<AudioSource>().enabled = false;
 			StartCoroutine(RotateTowardsFrontBlock());
 		}
 	}
@@ -228,6 +238,8 @@ public class CountingCharacter : MonoBehaviour
 		bubbleImage.color = redLightColor;
 		bubbleText.fontSize = 2;
 		bubbleText.text = LanguageScript.get_string(14);
+		redlight.GetComponent<AudioSource>().enabled = true;
+		greenlight.GetComponent<AudioSource>().enabled = false;
 		bubbleAnimator.Play("Scream", 0, 0f);
 		fieldOfVision.enabled = true;
 		xScaleToApply = 65f;
