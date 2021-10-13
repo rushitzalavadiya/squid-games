@@ -142,11 +142,11 @@ public class Character : MonoBehaviour
 
 	protected virtual void Start()
 	{
-		playerCohort = VoodooSauce.GetPlayerCohort();
-		if (playerCohort == "Faster_instant_sprint")
-		{
-			maxMoveSpeed += 1.5f;
-		}
+		// playerCohort = VoodooSauce.GetPlayerCohort();
+		// if (playerCohort == "Faster_instant_sprint")
+		// {
+		// 	maxMoveSpeed += 1.5f;
+		// }
 		respawnPosition = base.transform.position;
 		eventManager = EventManager.Instance;
 		pool = Pool.Instance;

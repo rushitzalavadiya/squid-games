@@ -108,12 +108,12 @@ public class CountingCharacter : MonoBehaviour
 
 	private void Start()
 	{
-		if (VoodooSauce.GetPlayerCohort() == "No_red")
-		{
-			base.gameObject.SetActive(value: false);
-			bubble.SetActive(value: false);
-			return;
-		}
+		// if (VoodooSauce.GetPlayerCohort() == "No_red")
+		// {
+		// 	base.gameObject.SetActive(value: false);
+		// 	bubble.SetActive(value: false);
+		// 	return;
+		// }
 		fieldOfVision.enabled = false;
 		canMove = false;
 		ownAnimator = GetComponent<Animator>();
@@ -262,15 +262,15 @@ public class CountingCharacter : MonoBehaviour
 			base.transform.rotation = Quaternion.Slerp(base.transform.rotation, lookingRot, Time.deltaTime * 2f);
 			yield return new WaitForEndOfFrame();
 		}
-		if (VoodooSauce.GetPlayerCohort() == "Large_cone")
-		{
-			yield return new WaitForSeconds(1f);
-			StartCoroutine(RotateTowardsWall(shouldInit: true));
-		}
-		else
-		{
+		// if (VoodooSauce.GetPlayerCohort() == "Large_cone")
+		// {
+		// 	yield return new WaitForSeconds(1f);
+		// 	StartCoroutine(RotateTowardsWall(shouldInit: true));
+		// }
+		// else
+		// {
 			StartCoroutine(CheckPlayers());
-		}
+		// }
 	}
 
 	private IEnumerator CheckPlayers()

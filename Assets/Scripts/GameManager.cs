@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using TextFx;
+// using TextFx;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -190,23 +190,23 @@ public class GameManager : MonoBehaviour
 
 	private void Start()
 	{
-		currentCohort = VoodooSauce.GetPlayerCohort();
-		if (currentLevel == 1)
-		{
-			if (currentCohort == "Hold_to_move")
-			{
-				explanationText.text = LanguageScript.get_string(4);
-			}
-			else
-			{
-				explanationText.text = LanguageScript.get_string(5);
-			}
-			//explanationText.AnimationManager.PlayAnimation();
-		}
-		else
-		{
+		// currentCohort = VoodooSauce.GetPlayerCohort();
+		// if (currentLevel == 1)
+		// {
+		// 	if (currentCohort == "Hold_to_move")
+		// 	{
+		// 		explanationText.text = LanguageScript.get_string(4);
+		// 	}
+		// 	else
+		// 	{
+		// 		explanationText.text = LanguageScript.get_string(5);
+		// 	}
+		// 	//explanationText.AnimationManager.PlayAnimation();
+		// }
+		// else
+		// {
 			explanationText.gameObject.SetActive(value: false);
-		}
+		// }
 		currentLevelString = $"{currentLevel:D5}";
 		currentLevelCheckpointDeathString = $"{currentLevel:D5}CheckpointsDeaths";
 		currentLevelCheckpointRedSeenString = $"{currentLevel:D5}CheckpointsRedSeen";
@@ -368,7 +368,7 @@ public class GameManager : MonoBehaviour
 	{
 		progressionSlider.gameObject.SetActive(value: true);
 		pauseButton.SetActive(value: true);
-		goAnimator.Play("Go");
+		//goAnimator.Play("Go");
 		StartCoroutine(CheckForCrownWielder());
 		if (currentLevel == 1)
 		{
@@ -424,7 +424,7 @@ public class GameManager : MonoBehaviour
 
 	private IEnumerator PostEnd(bool playerWon, int playerRanking)
 	{
-		goAnimator.Play("LongGo");
+		//goAnimator.Play("LongGo");
 		yield return new WaitForSeconds(4f);
 		List<Character> missingPlayersRanking = GetMissingPlayersRanking();
 		finalPlayerRanking.AddRange(missingPlayersRanking);

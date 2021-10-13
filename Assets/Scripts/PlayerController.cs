@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using TapticPlugin;
+// using TapticPlugin;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +10,7 @@ public class PlayerController : Character
     [SerializeField] private List<ParticleSystem> confettis;
 
     [SerializeField] private float timeBetweenTwoBonusUpdate;
-    
+
 
     private CameraManager cameraManager;
 
@@ -67,8 +67,7 @@ public class PlayerController : Character
         sneakyBonusTextGO.GetComponent<FollowTarget>().SetTarget(transform);
         eventManager.AddListener<ScreenTouchedEvent>(OnScreenTouched);
     }
-    
-   
+
 
     protected override void Update()
     {
@@ -205,7 +204,8 @@ public class PlayerController : Character
             if (currentMoveSpeed > 5f && hapticCurrentInterval > 0.2f ||
                 currentMoveSpeed > 3f && hapticCurrentInterval > 0.35f || hapticCurrentInterval > 0.5f)
             {
-                TapticManager.Impact(ImpactFeedback.Light);
+                //TapticManager.Impact(ImpactFeedback.Light);
+                Vibration.Vibrate(5);
                 hapticCurrentInterval = 0f;
             }
         }
@@ -253,15 +253,23 @@ public class PlayerController : Character
     public override void Losing(bool fromDeath)
     {
 // play death audio play
-        if (!isCurrentlyInvincible && !hasLost)
+        if (fromDeath)
+        {
+            deathsound.SetActive(true);
+        }
+        else
         {
             FireSound.SetActive(true);
             deathsound.SetActive(true);
+        }
+
+        if (!isCurrentlyInvincible && !hasLost)
+        {
             cameraManager.StopFollowingPlayer();
             sneakyBonusTextGO.SetActive(false);
             currentSneakyPointBonus = 0;
             base.Losing(fromDeath);
-            
+
             //FireSound.SetActive(false);
             //deathsound.SetActive(false);
         }
