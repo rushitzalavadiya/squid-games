@@ -6,9 +6,11 @@ using UnityEngine.UI;
 
 public class PlayerController : Character
 {
+    public static PlayerController instance;
     [SerializeField] private List<ParticleSystem> confettis;
 
     [SerializeField] private float timeBetweenTwoBonusUpdate;
+    
 
     private CameraManager cameraManager;
 
@@ -31,17 +33,29 @@ public class PlayerController : Character
 
     private GameObject sneakyBonusTextGO;
 
+    public GameObject deathsound;
+
+    public GameObject FireSound;
+
     [Header("Sneaky")] private int sneakyPoints;
 
     protected override void Awake()
     {
         base.Awake();
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
     }
 
     protected override void Start()
     {
         base.Start();
-        screenIsTouched = false;
+        screenIsTouched = true;
         hapticCurrentInterval = 0f;
         sneakyPoints = 0;
         currentSneakyPointBonus = 0;
@@ -53,6 +67,8 @@ public class PlayerController : Character
         sneakyBonusTextGO.GetComponent<FollowTarget>().SetTarget(transform);
         eventManager.AddListener<ScreenTouchedEvent>(OnScreenTouched);
     }
+    
+   
 
     protected override void Update()
     {
@@ -236,12 +252,18 @@ public class PlayerController : Character
 
     public override void Losing(bool fromDeath)
     {
+// play death audio play
         if (!isCurrentlyInvincible && !hasLost)
         {
+            FireSound.SetActive(true);
+            deathsound.SetActive(true);
             cameraManager.StopFollowingPlayer();
             sneakyBonusTextGO.SetActive(false);
             currentSneakyPointBonus = 0;
             base.Losing(fromDeath);
+            
+            //FireSound.SetActive(false);
+            //deathsound.SetActive(false);
         }
     }
 

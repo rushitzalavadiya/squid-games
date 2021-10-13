@@ -1,0 +1,1104 @@
+fileFormatVersion: 2
+guid: a2c6e5648f0284c41ba174930051a177
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2144271193566030096
+    second: atlash (2)_0
+  - first:
+      213: 1415958326707254458
+    second: atlash (2)_1
+  - first:
+      213: 3162937944856956858
+    second: atlash (2)_2
+  - first:
+      213: -4402199538828378604
+    second: atlash (2)_3
+  - first:
+      213: 3723951502572510804
+    second: atlash (2)_4
+  - first:
+      213: 1528104564982920699
+    second: atlash (2)_5
+  - first:
+      213: -8612208412537064456
+    second: atlash (2)_6
+  - first:
+      213: 1696548093189682334
+    second: atlash (2)_7
+  - first:
+      213: -3933907093133413451
+    second: atlash (2)_8
+  - first:
+      213: -6558520034922571609
+    second: atlash (2)_9
+  - first:
+      213: 4601177600616659274
+    second: atlash (2)_10
+  - first:
+      213: -200466014412327041
+    second: atlash (2)_11
+  - first:
+      213: -1745730434786344505
+    second: atlash (2)_12
+  - first:
+      213: -1472532475844650530
+    second: atlash (2)_13
+  - first:
+      213: -3381637093661454533
+    second: atlash (2)_15
+  - first:
+      213: 7105586829710063222
+    second: atlash (2)_16
+  - first:
+      213: -5669647956256096665
+    second: atlash (2)_17
+  - first:
+      213: -7893394120328754211
+    second: atlash (2)_18
+  - first:
+      213: 7662732587726824696
+    second: atlash (2)_19
+  - first:
+      213: -5105802477363107945
+    second: atlash (2)_21
+  - first:
+      213: 7487902482470359890
+    second: atlash (2)_23
+  - first:
+      213: -258131132995748198
+    second: atlash (2)_24
+  - first:
+      213: 3354885261579393201
+    second: atlash (2)_25
+  - first:
+      213: -1890350069173291749
+    second: atlash (2)_26
+  - first:
+      213: 1839246552586474060
+    second: atlash (2)_27
+  - first:
+      213: 3349519745745873689
+    second: atlash (2)_28
+  - first:
+      213: 1302643429517491496
+    second: atlash (2)_29
+  - first:
+      213: -7570075854237792005
+    second: atlash (2)_30
+  - first:
+      213: -7461159290109123553
+    second: atlash (2)_31
+  - first:
+      213: 6721771367755996829
+    second: atlash (2)_32
+  - first:
+      213: 2909590796629884256
+    second: atlash (2)_33
+  - first:
+      213: -3298784398475984991
+    second: atlash (2)_14
+  - first:
+      213: -6415891537594085972
+    second: atlash (2)_20
+  - first:
+      213: 1118980506549121404
+    second: atlash (2)_22
+  - first:
+      213: -2894242991762296926
+    second: atlash (2)_34
+  - first:
+      213: -2026882644486000596
+    second: atlash (2)_35
+  - first:
+      213: -5617675096141979090
+    second: atlash (2)_36
+  - first:
+      213: 5066310609286305413
+    second: atlash (2)_37
+  - first:
+      213: -6353620884884458335
+    second: atlash (2)_38
+  - first:
+      213: -6894825920388355271
+    second: atlash (2)_39
+  - first:
+      213: -7081199525429909731
+    second: atlash (2)_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atlash (2)_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1894
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0192b9a2a4bf1cd10800000000000000
+      internalID: 2144271193566030096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1917
+        width: 587
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab47428989e76a310800000000000000
+      internalID: 1415958326707254458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_2
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1850
+        width: 471
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf8dc98d4305eb20800000000000000
+      internalID: 3162937944856956858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_3
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1840
+        width: 464
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41efeb1e7de38e2c0800000000000000
+      internalID: -4402199538828378604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1720
+        width: 90
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45edd9749222ea330800000000000000
+      internalID: 3723951502572510804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1720
+        width: 89
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5b57f610be43510800000000000000
+      internalID: 1528104564982920699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1752
+        width: 396
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3f817041a4b7880800000000000000
+      internalID: -8612208412537064456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_7
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1655
+        width: 471
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94ffe680895b8710800000000000000
+      internalID: 1696548093189682334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_8
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1604
+        width: 462
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3b46e6754f769c0800000000000000
+      internalID: -3933907093133413451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1485
+        width: 189
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8582ad6c47bf4a0800000000000000
+      internalID: -6558520034922571609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1620
+        width: 81
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a497d3156aaaadf30800000000000000
+      internalID: 4601177600616659274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1662
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f773a65d83dc73df0800000000000000
+      internalID: -200466014412327041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_12
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1515
+        width: 204
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1c8f83b6be5c7e0800000000000000
+      internalID: -1745730434786344505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_13
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1638
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed99d09d383809be0800000000000000
+      internalID: -1472532475844650530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_15
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1491
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f4601eaf20211d0800000000000000
+      internalID: -3381637093661454533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_16
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1421
+        width: 132
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676ff89139d1c9260800000000000000
+      internalID: 7105586829710063222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_17
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1454
+        width: 471
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 52, y: 53, z: 51, w: 48}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ef5dd093d5151b0800000000000000
+      internalID: -5669647956256096665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_18
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1477
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbc5a95ed7057290800000000000000
+      internalID: -7893394120328754211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1269
+        width: 469
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4644c80be775a60800000000000000
+      internalID: 7662732587726824696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_21
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1346
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7976673d2bb8429b0800000000000000
+      internalID: -5105802477363107945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_23
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1256
+        width: 1102
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253596c92af5ae760800000000000000
+      internalID: 7487902482470359890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 58
+        width: 735
+        height: 1104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9eb1582a1fea6cf0800000000000000
+      internalID: -258131132995748198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_25
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1057
+        width: 588
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b812a6de52fe8e20800000000000000
+      internalID: 3354885261579393201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_26
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 968
+        width: 431
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b157ac9a0a024c5e0800000000000000
+      internalID: -1890350069173291749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_27
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 855
+        width: 462
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42574daef0568910800000000000000
+      internalID: 1839246552586474060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_28
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 824
+        width: 396
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91be6555672eb7e20800000000000000
+      internalID: 3349519745745873689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_29
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 580
+        width: 469
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82df2652c4be31210800000000000000
+      internalID: 1302643429517491496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_30
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 584
+        width: 462
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf805695e10b1f690800000000000000
+      internalID: -7570075854237792005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_31
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 332
+        width: 471
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14a0741823a47890800000000000000
+      internalID: -7461159290109123553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_32
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 332
+        width: 469
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9edc7c0277884d50800000000000000
+      internalID: 6721771367755996829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_33
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 84
+        width: 469
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dbed2f961f06820800000000000000
+      internalID: 2909590796629884256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_14
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1176
+        width: 140
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1affc3a311d5832d0800000000000000
+      internalID: -3298784398475984991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_20
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1176
+        width: 140
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad0540b3ac26f6a0800000000000000
+      internalID: -6415891537594085972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_22
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1176
+        width: 140
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71727397da678f00800000000000000
+      internalID: 1118980506549121404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_34
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1107
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af2856555595d7d0800000000000000
+      internalID: -2894242991762296926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_35
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 1062
+        width: 190
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20f10649f01fd3e0800000000000000
+      internalID: -2026882644486000596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_36
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1087
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2226e683420a02b0800000000000000
+      internalID: -5617675096141979090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_37
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1444
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5869d4c18a62f4640800000000000000
+      internalID: 5066310609286305413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_38
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1470
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a475f6d77763d7a0800000000000000
+      internalID: -6353620884884458335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_39
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 43
+        width: 204
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ba8131b58a050a0800000000000000
+      internalID: -6894825920388355271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlash (2)_40
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 782
+        width: 431
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17e517ac868abd90800000000000000
+      internalID: -7081199525429909731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bb9cb7a084ccf884c804e56f27cc12f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

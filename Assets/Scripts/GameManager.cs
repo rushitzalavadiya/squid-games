@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using TextFx;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -48,16 +49,16 @@ public class GameManager : MonoBehaviour
 	private InformationText informationText;
 
 	[SerializeField]
-	private Text goText;
+	private TextMeshProUGUI goText;
+
+//	[SerializeField]
+	//private Text currentLevelText;
+
+	//[SerializeField]
+	//private Text nextLevelText;
 
 	[SerializeField]
-	private Text currentLevelText;
-
-	[SerializeField]
-	private Text nextLevelText;
-
-	[SerializeField]
-	private TextFxUGUI levelText;
+	private TextMeshProUGUI levelText;
 
 	[SerializeField]
 	private Animator goAnimator;
@@ -81,7 +82,7 @@ public class GameManager : MonoBehaviour
 	private List<Sprite> screenShakeSprites;
 
 	[SerializeField]
-	private TextFxUGUI explanationText;
+	private TextMeshProUGUI explanationText;
 
 	private bool isUsingScreenShake;
 
@@ -111,17 +112,19 @@ public class GameManager : MonoBehaviour
 	[SerializeField]
 	private GameObject endGamePanel;
 
-	//[SerializeField]
-	//private TextFxUGUI victoryTextFX;
+	[SerializeField]
+	private GameObject victoryTextFX;
+
+	public TextMeshProUGUI victoryText;
 
 	[SerializeField]
-	private Text loseExplanationText;
+	private TextMeshProUGUI loseExplanationText;
 
 	[SerializeField]
 	private GameObject loseExplanationTextGO;
 
 	[SerializeField]
-	private Text rankText;
+	private TextMeshProUGUI rankText;
 
 	[SerializeField]
 	private GameObject nextButton;
@@ -135,17 +138,17 @@ public class GameManager : MonoBehaviour
 	[SerializeField]
 	private Slider levelProgressionSlider;
 
-	[SerializeField]
-	private GameObject triangleIndicator;
+	//[SerializeField]
+	//private GameObject triangleIndicator;
 
 	[SerializeField]
-	private Text currentGlobalLevelText;
+	private TextMeshProUGUI currentGlobalLevelText;
 
 	[SerializeField]
-	private Text nextGlobalLevelText;
+	private TextMeshProUGUI nextGlobalLevelText;
 
-	[SerializeField]
-	private Image nextGlobalLevelImage;
+	//[SerializeField]
+	//private Image nextGlobalLevelImage;
 
 	[SerializeField]
 	private Color progreessionColor = Color.black;
@@ -165,7 +168,7 @@ public class GameManager : MonoBehaviour
 		pauseButton.SetActive(value: false);
 		nextButton.SetActive(value: false);
 		restartButton.SetActive(value: false);
-		triangleIndicator.SetActive(value: false);
+		//triangleIndicator.SetActive(value: false);
 		skipIGPanel.SetActive(value: false);
 		gameIsOver = false;
 		gameHasStarted = false;
@@ -180,7 +183,7 @@ public class GameManager : MonoBehaviour
 		screenShakeButton.image.sprite = (isUsingScreenShake ? screenShakeSprites[1] : screenShakeSprites[0]);
 		currentCoinAmount = PlayerPrefs.GetInt("Coins", 0);
 		PrepareProgressionSlider();
-		levelText.text = stringBuilder.ToString();
+		levelText.text = PlayerPrefs.GetInt("Level", 1).ToString();
 		Time.timeScale = 1f;
 		currentLevelProgression = 0;
 	}
@@ -198,7 +201,7 @@ public class GameManager : MonoBehaviour
 			{
 				explanationText.text = LanguageScript.get_string(5);
 			}
-			explanationText.AnimationManager.PlayAnimation();
+			//explanationText.AnimationManager.PlayAnimation();
 		}
 		else
 		{
@@ -219,7 +222,7 @@ public class GameManager : MonoBehaviour
 		eventManager.AddListener<PlayerHasWonEvent>(OnPlayerWinning);
 		eventManager.AddListener<CounterIsTurningEvent>(OnCounterTurning);
 		UpdateSlider();
-		levelText.AnimationManager.PlayAnimation();
+		
 		if (currentLevel == 1)
 		{
 			TutorialLevelSetup();
@@ -433,8 +436,8 @@ public class GameManager : MonoBehaviour
 		if (playerWon)
 		{
 			UpdateLevel();
-			//victoryTextFX.gameObject.SetActive(value: true);
-			//victoryTextFX.text = LanguageScript.get_string(9);
+			victoryTextFX.gameObject.SetActive(value: true);
+			victoryText.text = LanguageScript.get_string(9);
 			//victoryTextFX.AnimationManager.PlayAnimation();
 			skipButton.SetActive(value: false);
 		}
@@ -474,17 +477,17 @@ public class GameManager : MonoBehaviour
 			switch (newSubLevel)
 			{
 			case 1:
-				triangleIndicator.transform.localPosition = new Vector3(-34.8f, -56.26f, 0f);
+				//triangleIndicator.transform.localPosition = new Vector3(-34.8f, -56.26f, 0f);
 				startingSliderValue = 0f;
 				targetSliderValue = 0.33f;
 				break;
 			case 2:
-				triangleIndicator.transform.localPosition = new Vector3(34.8f, -56.26f, 0f);
+				//triangleIndicator.transform.localPosition = new Vector3(34.8f, -56.26f, 0f);
 				startingSliderValue = 0.33f;
 				targetSliderValue = 0.66f;
 				break;
 			case 0:
-				triangleIndicator.transform.localPosition = new Vector3(102.5f, -56.26f, 0f);
+				//triangleIndicator.transform.localPosition = new Vector3(102.5f, -56.26f, 0f);
 				startingSliderValue = 0.66f;
 				targetSliderValue = 1f;
 				break;
@@ -500,28 +503,28 @@ public class GameManager : MonoBehaviour
 			}
 			if (newSubLevel == 0)
 			{
-				nextGlobalLevelImage.color = progreessionColor;
+				//nextGlobalLevelImage.color = progreessionColor;
 			}
 			nextButton.SetActive(value: true);
-			triangleIndicator.SetActive(value: true);
+			//triangleIndicator.SetActive(value: true);
 		}
 		else
 		{
 			switch ((currentLevel - 1) % 3)
 			{
 			case 0:
-				triangleIndicator.transform.localPosition = new Vector3(-101.5f, -56.26f, 0f);
+				//triangleIndicator.transform.localPosition = new Vector3(-101.5f, -56.26f, 0f);
 				break;
 			case 1:
-				triangleIndicator.transform.localPosition = new Vector3(-34.8f, -56.26f, 0f);
+				//triangleIndicator.transform.localPosition = new Vector3(-34.8f, -56.26f, 0f);
 				break;
 			case 2:
-				triangleIndicator.transform.localPosition = new Vector3(34.8f, -56.26f, 0f);
+				//triangleIndicator.transform.localPosition = new Vector3(34.8f, -56.26f, 0f);
 				break;
 			}
 			restartButton.SetActive(value: true);
 		}
-		triangleIndicator.SetActive(value: true);
+		//triangleIndicator.SetActive(value: true);
 	}
 
 	public void WatchRewardAdd()
@@ -531,7 +534,7 @@ public class GameManager : MonoBehaviour
 		{
 			UpdateLevel();
 			restartButton.SetActive(value: false);
-			triangleIndicator.SetActive(value: false);
+			//triangleIndicator.SetActive(value: false);
 			skipButton.SetActive(value: false);
 			StartCoroutine(AddLevelProgression(playerWon: true));
 		}

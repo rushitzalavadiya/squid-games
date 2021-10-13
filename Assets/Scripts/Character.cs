@@ -116,6 +116,8 @@ public class Character : MonoBehaviour
 
 	protected string playerCohort;
 
+	//private PlayerController Player;
+
 	protected virtual void Awake()
 	{
 		animator = GetComponent<Animator>();
@@ -409,6 +411,9 @@ public class Character : MonoBehaviour
 		ActivateCharacter();
 		StartCoroutine(Invincible());
 		StartCoroutine(Invisible());
+		yield return new WaitForSeconds(1f);
+		PlayerController.instance.FireSound.SetActive(false);
+		PlayerController.instance.deathsound.SetActive(false);
 	}
 
 	private IEnumerator Invincible()

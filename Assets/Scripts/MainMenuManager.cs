@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Text;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -38,10 +39,10 @@ public class MainMenuManager : MonoBehaviour
 	private Slider levelProgressionSlider;
 
 	[SerializeField]
-	private Text currentGlobalLevelText;
+	private TextMeshProUGUI currentGlobalLevelText;
 
 	[SerializeField]
-	private Text nextGlobalLevelText;
+	private TextMeshProUGUI nextGlobalLevelText;
 
 	[SerializeField]
 	private GameObject configurationPanel;
