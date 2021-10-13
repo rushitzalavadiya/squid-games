@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 26df807e1627bcc439962ebfee73ded3
+guid: 24fe3b25a8e3c394d8734a059cb5efa4
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
@@ -8,15 +8,10 @@ ModelImporter:
     second: mixamo.com
   externalObjects:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mat
-    second: {fileID: 2100000, guid: 59867456e4d4cda4fb4e1e1eab42a9f5, type: 2}
-  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Character
-    second: {fileID: 2800000, guid: 0add1bab697d1cc4f9749be1c520062e, type: 3}
+    second: {fileID: 2800000, guid: 69ba405ecfb4ff441ac0b76db9e0da79, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
